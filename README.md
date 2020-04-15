@@ -5,6 +5,6 @@ Dumping ground for Julia scripts
 
 ## Basics
 
-[main.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/Basics/main.jl)  
-[variables.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/Basics/variables.jl)  
-[strings.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/Basics/strings.jl)  
+[main.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/main.jl)  
+[variables.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/variables.jl)  
+[strings.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/strings.jl)  
