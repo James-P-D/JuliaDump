@@ -7,7 +7,8 @@ function dictionary_examples()
     println()
 
     println("Dictionaries are key/value pairs where the key must be unique")
-
+    println("REMEMBER TO CHECK THE SYMBOLS.JL FILE! SYMBOLS ARE FREQUENTLY USED AS KEYS FOR DICTIONARIES!!!")
+    
     dictionary_1 = Dict(1 => "one", 2 => "two")
     
     println("We can display the whole dictionary")
