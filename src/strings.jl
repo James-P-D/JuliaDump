@@ -3,46 +3,49 @@ using Printf
 function string_examples()
     println("--------------------------------------")
     println("String examples")
+    
+    println("Strings have to be surrounded by double-quotes")
     s1 = "Just some random words\n"
- 
-    # Size of string
+    println(s1)
+    
+    println("Size of string")
     println(length(s1))
  
-    # The 1st index is at 1
+    println("The 1st index is at 1 (NOT ZERO INDEXED!)")
     println(s1[1])
  
-    # Get last character
+    println("Get last character")
     println(s1[end])
  
-    # Get a range
+    println("Get a range")
     println(s1[1:4])
  
-    # Concatenation
+    println("Concatenation")
     s2 = string("Yukiteru", " Amano")
     println(s2)
  
-    # And
+    println("You can also concatenate strings with the * symbol")
     println("Yuno" * " Gasai")
  
-    # Interpolation
+    println("Interpolation (like using {0} is C#)")
     i3 = 2
     i4 = 3
     println("$i3 + $i4 = $(i3 + i4)")
  
-    # Multiline strings
+    println("Multiline strings are surrounded by triple-quotes. Note the output includes the new-lines!")
     s3 = """I
     have
     many
     lines"""
     println(s3)
  
-    # String comparisons with == > < !=
+    println("String comparisons with == > < !=")
     println("Takao" > "Hiyama")
  
-    # Find index for character
+    println("Find index for character (note the result is one-indexed, so index of 'i' in 'Keigo' will be 3 not 2)")
     println(findfirst(isequal('i'), "Keigo"))
  
-    # Find a substring
+    println("Find a substring")
     println(occursin("key", "monkey"))
  
 end

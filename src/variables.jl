@@ -3,7 +3,7 @@ using Printf
 function variable_examples()
     println("--------------------------------------")
     println("variable_examples")
-    println("Variables types are dynamically assigned")
+    println("Variables types can be dynamically assigned")
     s = 0
     println(s)
     s = true
@@ -28,23 +28,36 @@ function variable_examples()
     # Float32, Float64, UInt8, UInt16, etc.
     # UInt8, UInt16, etc.
     
+    println("We can also use booleans")
+    somebool = true
+    println(somebool)
+    
     println("Chars have to be surrounded by single quotes")
     c = 'c'
     println(c)
     
-    # Cast from Int to Char
+    println("Cast from Int to Char")
     c2 = Char(120)
     println(c2)
     
-    # Cast from Float to Int
+    println("Cast from Float to Int")
     i1 = UInt8(trunc(3.14))
     println(i1)
     
-    # Cast string to Float
+    println("Cast string to Float")
     f1 = parse(Float64,"1")
     println(f1)
     
-    # Cast string to Int
+    println("Cast string to Int")
     i2 = parse(Int8,"1")
     println(i2)
+    
+    println("We can also create BigInts")
+    someBigInt::BigInt = 1234 * 1234 * 1234 * 1234
+    println(someBigInt)
+    
+    println("And we can create BigFloats")
+    someBigFloat::BigFloat = 1234 / 1234 / 1234 / 1234
+    println(someBigFloat)
+    
 end

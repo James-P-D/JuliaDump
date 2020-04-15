@@ -3,15 +3,12 @@ using Statistics
 
 include("variables.jl")
 include("strings.jl")
+include("conditionals.jl")
 
 function main()
-    s = 0
-    println(s)
-    s = "Dog"
-    println(s)
-    
-    variable_examples()
-    string_examples()
+    #variable_examples()
+    #string_examples()
+    conditional_examples()
 end
 
 main()
