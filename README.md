@@ -1,7 +1,7 @@
 # JuliaDump
 Dumping ground for Julia scripts
 
-(Mostly after watching [Derek Banas' Erlang Tutorial on YouTube](https://www.youtube.com/watch?v=sE67bP2PnOo).
+(Mostly after watching [Derek Banas' Julia Tutorial on YouTube](https://www.youtube.com/watch?v=sE67bP2PnOo).)
 
 ## Basics
 
