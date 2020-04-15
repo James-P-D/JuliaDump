@@ -12,8 +12,10 @@ function main()
     #string_examples()
     #conditional_examples()
     #looping_examples()
-    array_examples()
+    #array_examples()
+    tuple_examples()
     
+    Stopped at 26 mins
 end
 
 main()
