@@ -30,7 +30,7 @@ function macro_examples()
     
     println()
     
-    println("We can call macros (not that macros must be preceeded by @)")
+    println("We can call macros (note that macros must be preceeded by @)")
     @apply_expression(5, println("Hello world"))
     
     z = 0
