@@ -1,5 +1,5 @@
 # JuliaDump
-Dumping ground for Julia scripts
+Dumping ground for [Julia](https://julialang.org/) scripts
 
 (Mostly after watching [Derek Banas' Julia Tutorial on YouTube](https://www.youtube.com/watch?v=sE67bP2PnOo).)
 
