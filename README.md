@@ -24,4 +24,6 @@ Dumping ground for [Julia](https://julialang.org/) scripts
 [exceptions.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/exceptions.jl)  
 [file_io.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/file_io.jl)  
 [macros.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/macros.jl)  
+[map_filter_reduce.jl](https://github.com/James-P-D/JuliaDump/blob/master/src/map_filter_reduce.jl)  
   
+
