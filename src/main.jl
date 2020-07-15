@@ -19,6 +19,7 @@ include("abstract_types.jl")
 include("exceptions.jl")
 include("file_io.jl")
 include("macros.jl")
+include("map_filter_reduce.jl")
 
 function main()
     variable_examples()
@@ -39,6 +40,7 @@ function main()
     exception_examples()
     file_io_examples()
     macro_examples()
+    map_filter_reduce_examples()
 end
 
 main()
