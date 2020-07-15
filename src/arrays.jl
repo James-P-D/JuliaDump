@@ -1,4 +1,5 @@
 using Printf
+# ARRAYS ARE INDEXED FROM ONE NOT ZERO IN JULIA!!!!
 
 ## I wrote this for displaying arrays, but we don't actually need it. println() works just fine!
 #
@@ -26,6 +27,13 @@ function array_examples()
     println("We can create arrays where we specify the type, the size, and the initial value (in this case undefined)")
     undefined_array = Array{Int32}(undef, 5)
     println(undefined_array)
+
+    println("We can create a int array and set initial values")
+    int_array = Int32[1,2,3,4]
+    println(int_array)
+    
+    println("We can get individual values. REMEMBER JULIA INDEXED FROM ONE NOT ZERO!")
+    println(int_array[2]) # The second element really is the second element (not the third as would be the case with zero-indexing)
 
     println("We can create a float array and set initial values")
     float_array = Float64[1,2,3,4]
