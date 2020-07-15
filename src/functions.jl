@@ -53,6 +53,17 @@ function get_sum(num1::String, num2::String)
     return parse(Int32, num1) + parse(Int32, num2)
 end
 
+# Functions can be nested
+function outer_function()
+    function inner_function()
+        println("inside inner_function()")
+    end
+
+    println("start outer_function()")
+    inner_function()
+    println("finished outer_function()")    
+end
+
 function function_examples()
     println("--------------------------------------")
     println("Function examples")
@@ -96,6 +107,8 @@ function function_examples()
     println("Functions can be overloaded")
     println(get_sum(10, 50))
     println(get_sum("10", "50"))
-    
+
+    println("Functions can be nested")
+    outer_function()
 end
 
