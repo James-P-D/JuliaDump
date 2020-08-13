@@ -30,7 +30,7 @@ function squared(some_int)
     return some_int * some_int
 end
 
-# Functions can return values
+# Functions can return tuples
 function squared_and_cubed(some_int)
     return (some_int * some_int,
             some_int * some_int * some_int)
@@ -62,6 +62,19 @@ function outer_function()
     println("start outer_function()")
     inner_function()
     println("finished outer_function()")    
+end
+
+# We can create functions..
+function doubler(x)
+    x * 2
+end
+# ..and more functions..
+function tripler(x)
+    x * 3
+end
+# ..and then pass them as parameters
+function increase(n, f)
+    f(n)
 end
 
 function function_examples()
@@ -110,5 +123,9 @@ function function_examples()
 
     println("Functions can be nested")
     outer_function()
+    
+    println("We can pass functions as parameters");
+    println(increase(5, doubler))
+    println(increase(5, tripler))
 end
 
